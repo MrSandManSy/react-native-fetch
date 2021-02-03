@@ -1,0 +1,25 @@
+{
+  "name": "react-native-fetch",
+  "version": "1.0.0",
+  "description": "fetch package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSandManSy/react-native-fetch.git"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "sy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSandManSy/react-native-fetch/issues"
+  },
+  "homepage": "https://github.com/MrSandManSy/react-native-fetch#readme",
+  "dependencies": {
+    "ajv": "^7.0.4"
+  }
+}
