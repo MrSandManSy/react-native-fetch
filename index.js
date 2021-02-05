@@ -1,6 +1,6 @@
 
 'use strict'
 
-import * as Request from './lib/index'
+import Request from './lib/index'
 
 export default Request

@@ -1,11 +1,12 @@
 # react-native-fetch-strong
 
-封装fetch，支持域名（ip）与端口号、请求超时、接口响应的数据校验配置。
+封装fetch，支持服务器地址、请求超时、接口响应的数据校验配置。
 
 ## 版本
 
-v1.0.1(目前最新版本)
-
+v1.0.3(目前最新版本)
+v1.0.2
+v1.0.1
 v1.0.0
 
 ## 使用说明
@@ -25,9 +26,9 @@ request.js
 
 import Request from 'react-native-fetch-strong'
 
-Request.initRootUrl(rootUrl)
+const request = new Request({ server: '10.8.30.30:8080', overTime: 20*1000 }) // { } 对象可缺省, 默认 { server: 'localhost:5000', overTime: 20 * 1000 }
 
-export default Request
+export default request
 
 ```
 
